@@ -2,25 +2,25 @@
 
 Fashion-MNIST classifier implemented in Pytorch
 
-##### Architectures:
+#### Architectures:
 
 1. Simple CNN: 2 Conv / BN / Relu / MP + FC / Relu / Dropout + FC 
 2. [Shufflenet V2 x0.25](https://arxiv.org/abs/1807.11164) + flatten / FC
 3. [MixNet S](https://arxiv.org/abs/1907.09595) + AP / Dropout / FC
 
-##### Losses:
+#### Losses:
 1. CrossEntropy Loss
 2. [Focal Loss](https://arxiv.org/abs/1708.02002)
 
-##### Optimisers
+#### Optimisers
 1. SGD + momentum + nesterov
 2. Adam
 
-##### Preprocessing
+#### Preprocessing
 1. None
 2. Normalisation to [0,1]
 
-##### Augmentation
+#### Augmentation
 1. Random horizontal Flipping
 2. Random image intensity 
 
@@ -36,7 +36,7 @@ The best performing Configurations for the three architectures were:
 |Shufflenet v2 | CE | ADAM | 0.001 | 64 | None | flip | 91.91 | 382 K | 56x56x1 |7.99ms |6.00ms |
 |MixNet S | CE | SGD | 0.01d | 64 | [0-1] | flip | 93.50 | 2612 K | 56x56x1 |17.14ms |17.96ms |
 
-The detailed accuracy results from all the training sessions/configurations are available in XXXXX
+The detailed accuracy results from all the training sessions/configurations are available [here](https://drive.google.com/file/d/1csOWy-xwY6Xk2VjNKZJIM93UozmKfq-_/view?usp=sharing)
 
 ### Usage
 to train a model:
