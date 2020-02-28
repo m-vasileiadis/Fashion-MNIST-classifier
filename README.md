@@ -1,30 +1,30 @@
-##Machine Learning Task: Fashion-MNIST
+## Machine Learning Task: Fashion-MNIST
 
 Fashion-MNIST classifier implemented in Pytorch
 
-#####Architectures:
+##### Architectures:
 
 1. Simple CNN: 2 Conv / BN / Relu / MP + FC / Relu / Dropout + FC 
 2. [Shufflenet V2 x0.25](https://arxiv.org/abs/1807.11164) + flatten / FC
 3. [MixNet S](https://arxiv.org/abs/1907.09595) + AP / Dropout / FC
 
-#####Losses:
+##### Losses:
 1. CrossEntropy Loss
 2. [Focal Loss](https://arxiv.org/abs/1708.02002)
 
-#####Optimisers
+##### Optimisers
 1. SGD + momentum + nesterov
 2. Adam
 
-#####Preprocessing
+##### Preprocessing
 1. None
 2. Normalisation to [0,1]
 
-#####Augmentation
+##### Augmentation
 1. Random horizontal Flipping
-2. Random intensity 
+2. Random image intensity 
 
-###Results
+### Results
 
 Multiple combinations of the architectures, losses and optimisers were trained and evaluated, for different batch sizes (32, 64, 128), and learning rate values (0.1, 0.01, 0.001, constant/decaying x0.1 every 10 epochs). All experiments ran for 30 epochs
 
