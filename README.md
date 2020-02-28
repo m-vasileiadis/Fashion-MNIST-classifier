@@ -4,7 +4,7 @@ Fashion-MNIST classifier implemented in Pytorch
 
 #### Architectures:
 
-1. Simple CNN: 2 Conv / BN / Relu / MP + FC / Relu / Dropout + FC 
+1. Simple CNN: 2x Conv / BN / Relu / MP + FC / Relu / Dropout + FC 
 2. [Shufflenet V2 x0.25](https://arxiv.org/abs/1807.11164) + flatten / FC
 3. [MixNet S](https://arxiv.org/abs/1907.09595) + AP / Dropout / FC
 
