@@ -35,6 +35,7 @@ The best performing Configurations for the three architectures were:
 |Simple CNN | CE | SGD | 0.01d | 64 | [0-1] | flip | 93.62 | 9921 K | 28x28 |0.54ms |2.71ms |
 |Shufflenet v2 | CE | ADAM | 0.001 | 64 | None | flip | 91.91 / 92.67* | 382 K | 56x56 |7.99ms |6.00ms |
 |MixNet S | CE | SGD | 0.01d | 64 | [0-1] | flip | 93.50 | 2612 K | 56x56 |17.14ms |17.96ms |
+
 *initialized from pretrained imagenet
 
 The detailed accuracy results from all the training sessions/configurations are available [here](https://drive.google.com/file/d/1csOWy-xwY6Xk2VjNKZJIM93UozmKfq-_/view?usp=sharing)
