@@ -26,7 +26,7 @@ Two losses are investigated:
 
 #### Preprocessing
 
-In terms of data preprocessing, normalising the data to [0-1] did produce a small improvement in results, however the batch norm layers helped with achieving very high accuracy results without normalisation 
+In terms of data preprocessing, normalising the data to [0-1] did produce a small improvement in results, however the batch norm layers helped with achieving very high accuracy results even without normalisation 
 
 #### Data Augmentation
 
