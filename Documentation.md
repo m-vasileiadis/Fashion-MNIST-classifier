@@ -40,6 +40,6 @@ Three batch sizes were investigated (32, 64, 128), with 64 providing the best re
 
 Multiple combinations of the above architectures and parameters were trained from scratch for 30 epochs and evaluated. The simple CNN achieved the best result of 93.62%, closely followed by mixNet with 93.50%, with the extremelly small shufflenet further back at 91.91%.
 
-Meanwhile, initializing shufflenet and mixNet from pretrained imagenet values further pushed accuracy to XX and XX respectively
+Meanwhile, initializing shufflenet and mixNet from pretrained imagenet values further pushed accuracy to 92.72% and XX respectively
 
 The detailed results from all the training sessions can be found [here](https://drive.google.com/file/d/1csOWy-xwY6Xk2VjNKZJIM93UozmKfq-_/view?usp=sharing).
