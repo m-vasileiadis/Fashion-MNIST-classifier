@@ -34,7 +34,7 @@ The best performing Configurations for the three architectures were:
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |--- |--- |--- |
 |Simple CNN | CE | SGD | 0.01d | 64 | [0-1] | flip | 93.62 | 9921 K | 28x28 | 20.7 M |0.54ms |2.71ms |
 |Shufflenet v2 | CE | ADAM | 0.001 | 64 | None | flip | 91.91 / 92.72* | 382 K | 56x56 |3.2 M |7.99ms |6.00ms |
-|MixNet S | CE | SGD | 0.01d | 64 | [0-1] | flip | 93.50 | 2612 K | 56x56 | 19.5 M| 17.14ms |17.96ms |
+|MixNet S | CE | SGD | 0.01d | 64 | [0-1] | flip | 93.50 / 94.42* | 2612 K | 56x56 | 19.5 M| 17.14ms |17.96ms |
 
 *initialized from pretrained imagenet
 
